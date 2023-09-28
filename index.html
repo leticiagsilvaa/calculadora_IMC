@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="box">
+
+        <div class="conteudo">
+            <div class="header">
+                <h1>Tabela IMC</h1>
+            </div>
+
+            <div class="tabela">
+                
+                <div class="mini-box">
+                    <h3>IMC</h3> 
+                    <div class="textos">
+                        <p>Menos do que 18,5</p>
+                        <p>Entre 18,5 e 24,9</p>
+                        <p>Entre 25 e 29,9</p>
+                        <p>Entre 30 e 34,9</p>
+                        <p>Entre 35 e 39,9</p>
+                        <p>Mais do que 40</p>
+                    </div>
+                </div>
+
+                <div class="mini-box">
+                    <h3>Resultado</h3>
+                    <div class="textos">
+                        <p>Abaixo do peso</p>
+                        <p>Peso normal</p>
+                        <p>Sobrepeso</p>
+                        <p>Obesidade grau 1</p>
+                        <p>Obesidade grau 2</p>
+                        <p>Obesidade grau 3</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="form-box">
+
+                <div class="header">
+                    <h1>Calcule seu IMC</h1>
+                </div>
+
+                <form class="form">
+                    <div class="mini-box">
+                        <label for="">Peso</label>
+                        <input type="text" id="peso">
+                    </div>
+                    
+                    <div class="mini-box">
+                        <label for="">Altura</label>
+                        <input type="text" id="altura">
+                    </div>
+                
+                </form>
+
+                <div class="resultado"></div>
+
+                <button id="btn">Enviar</button>
+
+                <p id="resultadoIMC"></p>
+
+                <p id="classificacaoIMC"></p>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
